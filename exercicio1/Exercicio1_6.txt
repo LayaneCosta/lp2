@@ -1,0 +1,10 @@
+A primeira diferença identificada foi a utilização da variavél "int" no
+primeiro programa, onde após ser compilado os valores restornados como 
+respostas eram valores inteiros, não possuindo "casas decimais".Já no segundo
+programa, foi utilizado as variaves como "float", sendo assim, após a 
+compilação, os valores retornados das operações realizadas na execução do
+programa possuiam "casas decimais", ou seja, não eram valores inteiros. E o 
+terceiro programa, foi utilizado para as variaves o tipo "double", sendo esse
+mais preciso na obtenção dos resultados para operações cujo os valores não são
+exatos (valores com casas decimais), porem a utilização de tal tipo (double) 
+ocupa grande espaço na memória, sendo indicado o uso apenas para nescessidades.  
