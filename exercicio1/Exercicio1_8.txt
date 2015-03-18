@@ -1,0 +1,2 @@
+a) O erro é a existencia do (;), após a condição de "if".
+b) Dentro da condição (if), o sinais de maior igual estão invertidos, o certo seria (>=) e não (=>). 
