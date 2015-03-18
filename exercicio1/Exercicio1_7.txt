@@ -1,0 +1,14 @@
+Resposta do Programa
+Variavél 3 = 7
+Variavél 4 = 10.5
+Variavél 5 = 10
+Variavél 4 é maior que a 10.0
+Variavél 5 é menor igual a 10.0
+
+Justificativa
+Na elaboração do programa, a resposta da variavel 4 foi de modo flutuante, ou seja, "float",
+sendo assim, o valor foi de 10.5 e na realização do teste (if), o sistema imprimiu "Variavél 4 é maior que a 10.0", 
+pois era realmente maior que 10. Já a resposta da variavel 5, não era de modo "float", logo a resposta foi 10.0, e no  
+teste (if) realizado com a variavel 5, obteve a resposta "Variavél 5 é menor igual a 10.0", pois o valor da variavel 5
+era igual a 10.0.
+
