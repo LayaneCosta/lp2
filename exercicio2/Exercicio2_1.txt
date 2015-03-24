@@ -1,0 +1,15 @@
+Definição
+  - Tipo Abstrato de Dados 
+      São unidades sintáticas que definem a forma de ocultar uma apresentação real que o programa utiliza. 
+      As vantagens são a maior confiabilidade, devido a ocultação de informações, entre outros. 
+  
+  - Classe
+      É um conjunto de objetos com características comuns, ou seja, classe é a definição das características de um objeto. 
+      Uma classe é como um modelo para a criação de objetos, que tem as mesmas características da classe à qual pertence.
+
+  - Objeto
+      É a instancia de uma classe, ou seja, a materialização de uma classe, sendo um conceito dinâmico, por fim, 
+      objeto é um elemento da classe. 
+      
+  - Mensagens 
+      São métodos, ou seja, operações que a classe realiza. 
