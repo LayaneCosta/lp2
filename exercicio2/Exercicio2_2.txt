@@ -1,0 +1,7 @@
+Utiliza-se a palavra-chave new, para instanciar um objeto na memória. 
+O operador new, é responsável por três ações quando utilizado em um aplicativo: 
+  1) Aloca memória para o objeto (uma vez que, o Java possui um sistema de gerenciamento
+  automático de memória, ou seja, não precisa alocar de maneira explícita a memória);
+  2) Inicializa variáveis de instância (nesse caso, o valor default 0); 
+  3) Invoca um construtor (método invocado quando um objeto é instanciado).
+
