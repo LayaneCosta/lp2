@@ -16,17 +16,15 @@ public class NumeroMuitoGrande {
         System.out.print("Segundo Número Grande: ");
         n2 = input.next();
 
-        for (i = 0; i < n1.length(); i++) {
-            char caracter = n1.charAt(i);
+        for (i = n1.length(), j=0; i >0; i--, j++) {
+            char caracter = n1.charAt(j);
             x[i] = Character.getNumericValue(caracter);
         }
-        for (i = 0; i < n2.length(); i++) {
-            char caracter = n2.charAt(i);
+        for (i = n2.length(), j=0; i > 0; i--, j++) {
+            char caracter = n2.charAt(j);
             y[i] = Character.getNumericValue(caracter);
         }
-        for(i=0; i<=29; i++){
-            r[i] = -1;
-        }
+      
         for (i = 29; i >= 0; i--) {
             r[i] = (x[i] + y[i]);
             if (r[i] > 9) {
@@ -34,7 +32,7 @@ public class NumeroMuitoGrande {
                 r[i] -= 10;
             }
         }
-        for (k = 0; k < 29; k++){
+        for (k = 29; k >= 0; k--){
             if (r[k]>0)
             System.out.print(r[k]);
         
